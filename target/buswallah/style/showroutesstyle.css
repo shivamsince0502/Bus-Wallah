@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("showroutebg.png") no-repeat center center fixed;
+  height: 100vh;
+  background-size: cover;
+  /* overflow: hidden; */
+  font-family: "Poppins", sans-serif;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.img-route {
+  width: 3px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(216, 127, 9),
+    rgb(170, 53, 21)
+  );
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  border-top: none;
+  border-bottom: 1px solid #dee2e6;
+}
+
+header {
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+  height: 80px;
+  padding-left: 80px;
+  z-index: 100;
+  background: #fff;
+}
+
+#span-1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#span-2 {
+  font-size: 3rem;
+  margin: 10px;
+  color: #305630;
+}
+.tab-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.head-tab {
+  display: flex;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  left: 23%;
+  top: 130px;
+  z-index: 2;
+}
+
+.hide-table {
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  /* left: 20%; */
+  top: 0px;
+  z-index: 1;
+  background: #fff;
+}
+.tab-div {
+  display: flex;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+#tab-div2 {
+  border: 1px solid;
+  padding: 0px 0px;
+  height: 70px;
+  margin-top: 45px;
+}
+.head-tab h6 {
+  border-bottom: 1px solid;
+}
+.tab-div h6,
+label {
+  /* margin: 20px; */
+  width: 90px;
+}
+.book-btn {
+  position: absolute;
+  right: 15px;
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+.route-card {
+  margin: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.start-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+#route-line {
+  background: linear-gradient(
+    to bottom right,
+    rgb(216, 127, 9),
+    rgb(170, 53, 21)
+  );
+  width: 3px;
+  height: 100px;
+  margin-right: 50px;
+}
+
+.routes-path {
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.show-bus {
+  display: flex;
+  flex-direction: row;
+}
+
+#toast-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.toast {
+  position: relative;
+  width: 250px;
+  padding: 15px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.toast-success {
+  background-color: #5cb85c;
+}
+
+.toast-error {
+  background-color: #d9534f;
+}
+
+.form-control {
+  border: none;
+  box-shadow: 0px 1px 5px 2px rgb(216, 216, 232);
+  border-radius: 10px;
+  height: 35px;
+  margin: 8px 0;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  font-family: "Arial";
+}
+.form-grid {
+  display: flex;
+  align-items: center;
+}
+.input-box {
+  flex-basis: 95%;
+  margin: 0 10px;
+}
+.btn {
+  border-radius: 10px;
+}
+.dropdown select {
+  width: 105px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: justify;
+}
